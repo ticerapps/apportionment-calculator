@@ -1,44 +1,153 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Apportionment Calculator — Support</title>
-<meta name="description" content="Support for Apportionment Calculator.">
-<link rel="icon" href="icon.png">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apportionment Calculator · Seven methods, every step · Ticer Apps</title>
+  <meta name="description" content="Apportion seats with Hamilton, Jefferson, Lowndes, Webster, Adams, Huntington-Hill and equal proportions. Compare the results and see every step. For iPhone, iPad, Mac and Android.">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#0C1210">
+  <link rel="canonical" href="https://ticerapps.com/apportionment-calculator/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ticer Apps">
+  <meta property="og:title" content="Apportionment Calculator">
+  <meta property="og:description" content="Seven apportionment methods. Every step shown.">
+  <meta property="og:url" content="https://ticerapps.com/apportionment-calculator/">
+  <meta property="og:image" content="https://ticerapps.com/assets/apps/apportionment/icon.webp">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Apportionment Calculator",
+    "url": "https://ticerapps.com/apportionment-calculator/",
+    "image": "https://ticerapps.com/assets/apps/apportionment/icon.webp",
+    "description": "Apportion seats with seven methods, compare the results, and see every step.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "iOS, iPadOS, macOS, Android",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Organization", "name": "Ticer Apps", "url": "https://ticerapps.com/" }
+  }
+  </script>
 </head>
-<body>
-<main>
-<header>
-    <img src="icon.png" alt="Apportionment Calculator app icon">
-    <div>
-        <h1>Apportionment Calculator</h1>
-        <p>Support</p>
+<body class="theme-apportion">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/"><span class="mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>ticer apps</a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#apps">Apps</a>
+        <a href="/#guides">Guides</a>
+        <a href="/support/">Privacy</a>
+        <a href="#support">Support</a>
+      </nav>
     </div>
-</header>
+  </header>
 
-<section>
-    <h2>Contact</h2>
-    <p>Questions, problems, or feedback:</p>
-    <p class="contact"><a href="mailto:ticerapps@gmail.com">ticerapps@gmail.com</a></p>
-    <p>For a result that looks wrong, include the seats, the populations and the method used.</p>
-</section>
+  <main id="main">
+    <section class="wrap app-hero" aria-labelledby="app-title">
+      <div class="stack">
+        <p class="crumbs" style="margin-bottom: 8px"><a href="/#apps">Apps</a> <span aria-hidden="true">/</span> Apportionment Calculator</p>
+        <img class="app-icon" src="/assets/apps/apportionment/icon.webp" alt="Apportionment Calculator icon" width="384" height="384">
+        <div>
+          <h1 class="display app" id="app-title">Apportionment Calculator</h1>
+          <p class="tagline">Seven methods. Every step shown.</p>
+        </div>
+        <p class="lead">Hand out a fixed number of seats in proportion to population, the problem the U.S. House has faced since 1790, and see exactly how each method gets there.</p>
+        <div class="actions">
+          <a class="badge-link" href="https://apps.apple.com/us/app/apportionment-calculator/id6814687638"><img class="badge-apple" src="/assets/badges/app-store-badge.svg" alt="Download on the App Store" width="120" height="40"></a>
+          <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.brandon.apportionmentcalculator"><img class="badge-google" src="/assets/badges/google-play-badge.png" alt="Get Apportionment Calculator Lite on Google Play" width="646" height="250"></a>
+        </div>
+        <p class="facts"><span>iPhone, iPad and Mac · Android</span><a href="#versions">Lite or Pro on Android?</a></p>
+      </div>
+      <figure class="shots" aria-label="Screenshots">
+        <img src="/assets/apps/apportionment/shot-2.webp" alt="The steps behind Webster's method" width="540" height="1080">
+        <img src="/assets/apps/apportionment/shot-1.webp" alt="A results table for Webster's method" width="540" height="1080">
+        <img src="/assets/apps/apportionment/shot-3.webp" alt="The steps behind Hamilton's method" width="540" height="1080">
+      </figure>
+    </section>
 
-<section>
-    <h2>Purchases</h2>
-    <p>Some methods are free; others can be unlocked individually or together. Purchases are one-time, not subscriptions.</p>
-    <p>If something you bought appears locked on another device, sign in to the same account and choose <strong>Restore Purchases</strong> from the app's menu.</p>
-</section>
+    <section class="wrap section" aria-labelledby="how-title">
+      <h2 class="section-title" id="how-title">How it works</h2>
+      <div class="grid-4">
+        <div class="feature"><span class="step">01</span><h3>Enter</h3><p>Type the seats and each state's population, or import a CSV or Excel table.</p></div>
+        <div class="feature"><span class="step">02</span><h3>Calculate</h3><p>Get the divisor, each quota, the initial seats and the final apportionment.</p></div>
+        <div class="feature"><span class="step">03</span><h3>Compare</h3><p>Put the methods side by side and see which seats move from state to state.</p></div>
+        <div class="feature"><span class="step">04</span><h3>Learn</h3><p>Every result comes with its steps and a short history of the method.</p></div>
+      </div>
+    </section>
 
-<section>
-    <h2>Privacy</h2>
-    <p>See the <a href="privacy.html">privacy policy</a>.</p>
-</section>
-</main>
+    <section class="wrap section" id="methods" aria-labelledby="methods-title">
+      <div class="methods">
+        <p class="eyebrow">Seven methods</p>
+        <h2 id="methods-title">Exact fractions, not floating point. The 2020 census apportionment comes out right to the seat.</h2>
+        <ul class="chips">
+          <li>Hamilton</li>
+          <li>Jefferson</li>
+          <li>Lowndes</li>
+          <li>Webster</li>
+          <li>Adams</li>
+          <li>Huntington-Hill</li>
+          <li>Equal proportions</li>
+        </ul>
+        <p>Your last 50 calculations are saved, with starred ones kept for good. Export a calculation as CSV or share it as text.</p>
+      </div>
+    </section>
 
-<footer>
-    <a href="privacy.html">Privacy policy</a>
-</footer>
+    <section class="wrap section" id="versions" aria-labelledby="versions-title">
+      <h2 class="section-title" id="versions-title">Which version?</h2>
+      <div class="table-box">
+        <table>
+          <thead>
+            <tr><th scope="col">Store</th><th scope="col">Runs on</th><th scope="col">Methods</th><th scope="col">Price</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><a href="https://apps.apple.com/us/app/apportionment-calculator/id6814687638">App Store</a></td><td>iPhone, iPad, Mac</td><td>Some free; unlock the rest in the app</td><td>Free</td></tr>
+            <tr><td><a href="https://play.google.com/store/apps/details?id=com.brandon.apportionmentcalculator">Google Play · Lite</a></td><td>Android</td><td>Some free; unlock the rest in the app</td><td>Free</td></tr>
+            <tr><td><a href="https://play.google.com/store/apps/details?id=com.brandon.apportionmentcalculatorpro">Google Play · Pro</a></td><td>Android</td><td>All seven included</td><td>$4.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small muted" style="margin-top: 12px">Prices shown in US dollars; your store shows your local price.</p>
+    </section>
+
+    <section class="wrap section" id="support" aria-labelledby="help-title">
+      <div class="help">
+        <div>
+          <h2 id="help-title">Support</h2>
+          <p>Questions, problems, or feedback:</p>
+          <p class="contact"><a href="mailto:ticerapps@gmail.com?subject=Apportionment%20Calculator">ticerapps@gmail.com</a></p>
+          <p>For a result that looks wrong, include the seats, the populations and the method used.</p>
+        </div>
+        <div>
+          <p><strong>Purchases.</strong> Some methods are free; others can be unlocked individually or together. Purchases are one-time, not subscriptions.</p>
+          <p>If something you bought appears locked on another device, sign in to the same account and choose <strong>Restore Purchases</strong> from the app's menu.</p>
+          <p><a href="/apportionment-calculator/privacy">Privacy policy</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" aria-labelledby="more-title">
+      <h2 class="section-title" id="more-title" style="font-size: 26px; margin-bottom: 24px">More from Ticer Apps</h2>
+      <div class="grid-3">
+        <a class="mini" href="/quilt-bee/"><img src="/assets/apps/quilt-bee/icon.webp" alt="" width="384" height="384" loading="lazy"><span><strong>Quilt Bee</strong><small>Block puzzle · Android, iOS soon</small></span></a>
+        <a class="mini" href="/minesweeper-strait-of-hormuz/"><img src="/assets/apps/minesweeper/icon.webp" alt="" width="384" height="384" loading="lazy"><span><strong>Minesweeper: Strait of Hormuz</strong><small>Logic puzzle · iOS, Android, web</small></span></a>
+        <a class="mini" href="/gem-sweeper/"><img src="/assets/apps/gem-sweeper/icon.webp" alt="" width="384" height="384" loading="lazy"><span><strong>Gem Sweeper</strong><small>Mine puzzle · Coming soon</small></span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Ticer Apps</span>
+      <nav aria-label="Footer">
+        <a href="/support/">Privacy policies</a>
+        <a href="/support/#help">Support</a>
+        <a href="mailto:ticerapps@gmail.com">ticerapps@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

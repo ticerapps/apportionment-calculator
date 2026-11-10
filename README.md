@@ -1,9 +1,14 @@
 # Apportionment Calculator — support site
 
-Two static pages for the App Store and Play Store listings:
+Two static pages for the App Store and Play Store listings, served at
+https://ticerapps.com/apportionment-calculator/ (the ticerapps.com custom domain of the
+`ticerapps/ticerapps.github.io` user site):
 
-- `index.html` — Support URL
-- `privacy.html` — Privacy Policy URL
+- `index.html` — app page and Support URL (`#support`)
+- `privacy.html` — Privacy Policy URL (also served as `/apportionment-calculator/privacy`)
+
+Both pages use the main site's `/assets/site.css`, fonts, images and `/favicon.svg`, so
+they only render fully on ticerapps.com. Keep the privacy text as written unless the app changes.
 
 ## Publishing on GitHub Pages
 
